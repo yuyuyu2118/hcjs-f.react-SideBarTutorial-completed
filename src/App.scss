@@ -22,23 +22,25 @@
   & .row{
     width: 100%;
     height: 60px;
-    //background-color: greenyellow;
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
-    & :hover{
+    &:hover{
       cursor: pointer;
-      background-color: #7e91ff;
+      background-color: #007676;
     }
     & #icon{
-      font: 30%;
+      flex: 30%;
       display: grid;
       place-items: center;
     }
     & #title{
-      font: 70%;
+      flex: 70%;
     }
+  }
+  & #active{
+  background-color: #007676;
   }
 }
 
